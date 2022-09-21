@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header{
+
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.721) ,rgba(0, 0, 0, 0.227))
+    , url(../img/back.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.logo{
+    height: 100px;
+    margin-left: 20px;
+}
+
+.main-nav li a{
+list-style: none;
+color: #D3D3D3;
+text-decoration: none;
+margin-right: 50px;
+font-size: larger;
+font-style: italic;
+}
+
+.main-nav li{
+ display: inline-block;  
+ margin-right: 300px;
+ 
+}
+
+.main-nav li a:hover{
+color: rgb(66, 66, 66);
+text-decoration: solid;
+}
+
+.big-word{
+    position: absolute;
+    color:#D3D3D3 ;
+    margin-top: 80px;
+    margin-left: 40px;
+    font-style: italic;
+}
+
+h1{
+    font-weight: 800;
+    font-size: xx-large;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-bottom: 20px;
+}
+.btn{
+    border: solid 1px cornsilk;
+    margin-right: 15px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 10px 20px 20px 10px;
+    background-color:#d3d3d33e ;
+    text-decoration: none;
+    color: #D3D3D3;
+}
+
+.btn:hover{
+    color: black;
+    border-radius: 20px 10px 20px 10px;
+}
+
+ section{
+    padding: 40px 0px;
+    background-color: #D3D3D3;
+
+ }
+ h2{
+    font-weight: 800;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+    margin-top: -32px;
+    font-style: italic;
+    
+ }
+
+
+ hr{
+    width: 150px;
+    border: solid 2px;
+    align-items:center ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    
+ }
+
+
+ .features{
+    text-align: center;
+ }
+
+
+ .features i{
+    font-size: 50px;
+ }
+.u{
+    margin-bottom: 40px; 
+    
+}
+
+ .gallary{
+padding: 0px;
+margin: -5px;
+background-color: black;
+overflow: hidden;
+ }
+
+ .gallary img{
+    width: 100%;
+    opacity: .6;
+    transition: .5s;
+    transform: scale(1.1);
+ }
+ .gallary img:hover{
+    
+    transform: scale(1);
+    opacity: 1;
+ }
+ label{
+    margin-top: 5px;
+ }
+ input{
+    width: 100%;
+    padding: 3px;
+ }
+
+ footer{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    color: #D3D3D3;
+ }
+
+span{
+    font-style: italic;
+    font-size: larger;
+}
+
+
+ .footer nav ul{
+    list-style: none;
+ }
+ footer li a{
+    
+    display: block;
+    text-decoration: none;
+    color: #D3D3D3;
+    text-align: left;
+ }
